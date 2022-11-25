@@ -1,0 +1,35 @@
+ERROR:root:Traceback (most recent call last):
+  File "C:\Users\Jinu\PycharmProjects\WEB\WINT\manage.py", line 50, in <module>
+    ng()
+  File "C:\Users\Jinu\PycharmProjects\WEB\WINT\manage.py", line 24, in main
+    execute_from_command_line(sys.argv)
+  File "C:\Users\Jinu\PycharmProjects\WEB\venv\lib\site-packages\django\core\management\__init__.py", line 446, in execute_from_command_line
+    utility.execute()
+  File "C:\Users\Jinu\PycharmProjects\WEB\venv\lib\site-packages\django\core\management\__init__.py", line 440, in execute
+    self.fetch_command(subcommand).run_from_argv(self.argv)
+  File "C:\Users\Jinu\PycharmProjects\WEB\venv\lib\site-packages\django\core\management\base.py", line 402, in run_from_argv
+    self.execute(*args, **cmd_options)
+  File "C:\Users\Jinu\PycharmProjects\WEB\venv\lib\site-packages\django\core\management\commands\runserver.py", line 74, in execute
+    super().execute(*args, **options)
+  File "C:\Users\Jinu\PycharmProjects\WEB\venv\lib\site-packages\django\core\management\base.py", line 448, in execute
+    output = self.handle(*args, **options)
+  File "C:\Users\Jinu\PycharmProjects\WEB\venv\lib\site-packages\django\core\management\commands\runserver.py", line 111, in handle
+    self.run(**options)
+  File "C:\Users\Jinu\PycharmProjects\WEB\venv\lib\site-packages\django\core\management\commands\runserver.py", line 118, in run
+    autoreload.run_with_reloader(self.inner_run, **options)
+  File "C:\Users\Jinu\PycharmProjects\WEB\venv\lib\site-packages\django\utils\autoreload.py", line 680, in run_with_reloader
+    start_django(reloader, main_func, *args, **kwargs)
+  File "C:\Users\Jinu\PycharmProjects\WEB\venv\lib\site-packages\django\utils\autoreload.py", line 661, in start_django
+    reloader.run(django_main_thread)
+  File "C:\Users\Jinu\PycharmProjects\WEB\venv\lib\site-packages\django\utils\autoreload.py", line 344, in run
+    self.run_loop()
+  File "C:\Users\Jinu\PycharmProjects\WEB\venv\lib\site-packages\django\utils\autoreload.py", line 350, in run_loop
+    next(ticker)
+  File "C:\Users\Jinu\PycharmProjects\WEB\venv\lib\site-packages\django\utils\autoreload.py", line 403, in tick
+    self.notify_file_changed(filepath)
+  File "C:\Users\Jinu\PycharmProjects\WEB\venv\lib\site-packages\django\utils\autoreload.py", line 373, in notify_file_changed
+    trigger_reload(path)
+  File "C:\Users\Jinu\PycharmProjects\WEB\venv\lib\site-packages\django\utils\autoreload.py", line 267, in trigger_reload
+    sys.exit(3)
+SystemExit: 3
+

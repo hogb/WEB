@@ -1,0 +1,7 @@
+ERROR:root:Traceback (most recent call last):
+  File "C:\Users\Jinu\PycharmProjects\WEB\WINT\ng.py", line 43, in <module>
+    ng()
+  File "C:\Users\Jinu\PycharmProjects\WEB\WINT\ng.py", line 36, in ng
+    to_url.to_pickle('url_now.pickle')
+AttributeError: 'str' object has no attribute 'to_pickle'
+
